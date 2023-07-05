@@ -1,3 +1,4 @@
+import { TwoPassDoubleSide } from "three";
 import {
     mobile,
     backend,
@@ -26,6 +27,7 @@ import {
     carrent,
     jobit,
     tripguide,
+    todolist,
     threejs,
 
 } from "../assets";
@@ -172,7 +174,7 @@ const experiences = [
         points: [
             "Computer Support",
             "Administrative Support staff in the International Office.",
-            "Input and maintain accurate compute and manual records, including student personal record system.",
+            "Input and maintain computer and manual records, including student personal record system.",
 
         ],
     },
@@ -207,6 +209,7 @@ const testimonials = [
 ];
 
 const projects = [
+
     {
         name: "Car Rent",
         description:
@@ -269,6 +272,27 @@ const projects = [
         ],
         image: tripguide,
         source_code_link: "https://github.com/",
+    },
+    {
+        name: "TODO-List",
+        description:
+            "A todo list web app in HTML, CSS and JavaScript with the ability to display, create, edit and delete tasks.",
+        tags: [
+            {
+                name: "HTML5",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "CSS6",
+                color: "green-text-gradient",
+            },
+            {
+                name: "JavaScript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: todolist,
+        source_code_link: "https://yenkobe.github.io/TODO-List/",
     },
 ];
 
