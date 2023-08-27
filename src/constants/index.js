@@ -127,7 +127,7 @@ const experiences = [
         company_name: "UBASE, Seoul, South Korea",
         icon: ubase,
         iconBg: "#E6DEDD",
-        date: "Jan 2020 - Present",
+        date: "Jun 2020 - Present",
         points: [
             "Operational monitoring and fault management.",
             "Weverse Company service management.",
